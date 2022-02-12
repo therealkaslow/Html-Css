@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outras formatações</title>
+  </head>
+  <body>
+    <h1>outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>
+      o documento <code>document.getElementById('teste')</code> é escrito em
+      linguagem javascript.
+    </p>
+    <pre> <!-- esse pré serve pra fazer a identação no documento html ficando formatado apenas para identificar os espaços no código e considerar no site. -->
+        <code><!-- o code serve para o texto ficar mais legível para saber se é um código ou apenas um texto em html. -->
+    num = int(input('Digite um número')) if num % 2 == 0: 
+    printf('O numero{num} é par')
+
+    else: 
+    printf('o número {num} é impar')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>
+      como diria um pai de um amigo:
+      <q>o computador é um burro muito rápido</q>ou seja a tag Q é um citador no
+      Código-fonte
+    </p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff noble, no seu livro <q>HTML para leigos</q>:</p>
+    <blockquote
+      cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
+    >
+      <!-- o "blockquote" e um bloco de citação e o "cite" é um parâmetro da fonte da informação do item -->
+      A diferença entre elementos inline e um bloco de texto é importante. Os
+      elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>
+      Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e
+      <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!
+    </p>
+    <p>Essa sigla ABBR serve para citar uma sigla quando passa o mouse emcima e na tag passar no parâmetro TITLE o significado da sigla</p>
+    <h2>Testo invertido</h2>
+    <p>
+        <bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo>
+        Essa Tag BDO serve para inverter o texto tando da direita pra esquerda e <bdo dir="rtl">Socorram-me</bdo>.
+    </p>
+  </body>
+</html>
