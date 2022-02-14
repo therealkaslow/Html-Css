@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mídias</title>
+  </head>
+  <body>
+    <h1>Tente abrir esse site</h1>
+    <p>
+      Tente abrir esse site em vários dispositivos diferentes ou simplesmente
+      aumente e diminua o tamanho do seu navegador
+    </p>
+    <h2>Bounce Rate</h2>
+    <p>
+      é quando o usuário automaticamente sai do seu site por questões de
+      desinteresse e o google consegue fazerr um analytics disso, fazendo com
+      que ele vai parar de indicar o site para outras pessoas.
+    </p>
+    <p>
+        <ul>Como abaixo tem como deixar a imagem responsiva sem o uso do CSS, utilizando a tag de <mark>Picture</mark> e após criar uma tag de <mark>Source</mark> definindo a largura máxima. <hr><li>
+            Lembrando que a ordem das sources, tem que ser da maior imagem para a menor imagem por exemplo:
+        </li><li>
+            <code>
+                <pre>
+                    &lt;picture&gt;
+                        <source media="(max-width: 750px)" srcset="assets/foto-p.png" type="image/png">
+                        &lt;source media="(max-width: 1050px)" srcset="assets/foto-m.png" type="image/png"&gt;
+                        &lt;img src="assets/foto-g.png" alt="G" /&gt;
+
+                    &lt;/picture&gt;
+                </pre>
+            </code>
+        </li></ul>
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="assets/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="assets/foto-m.png" type="image/png">
+      <img src="assets/foto-g.png" alt="G" />
+    </picture>
+  </body>
+</html>
