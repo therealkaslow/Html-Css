@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagens Flexíveis</title>
+  </head>
+  <body>
+    <h1>Veja como funciona as imagens flexíveis</h1>
+    <ul>
+      <li>Vá redimensonando o navegador para ver como funciona</li>
+      <li>
+        Ela funciona basicamente para se adequar com todos os tipos de
+        dispositivos como abaixo:
+      </li>
+      <li>O nome disso é responsividade e é bastante importante na construção de um site!</li>
+    </ul>
+    <h2>Ilustração</h2>
+    <picture>
+      <source
+        media="(max-width: 771px)"
+        srcset="assets/paisagem-p.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1248px)"
+        srcset="assets/paisagem-m.png"
+        type="image/png"
+      />
+      <img src="assets/paisagem-g.png" alt="" />
+    </picture>
+  </body>
+</html>
