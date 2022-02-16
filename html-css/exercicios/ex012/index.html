@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos e Compatibilidade</title>
+  </head>
+  <body>
+    <h1>Veja como fazer com que um video funcione na web</h1>
+    <p>
+      Na maioria dos navegadores, o video funciona nos formatos WEBM e MP4 e
+      também no formato OGV
+    </p>
+    <p>Este video abaixo está hospedado no meu propio servidor local</p>
+    <p>tem um conversor muito bom também que é o <em>Handbreak</em></p>
+    <!--    <video src="media/Video.webm" autoplay width="500"></video>  ** DESSE JEITO NÃO PODE FAZER PORCAUSA DE PROBLEMAS DE COMPATIBILIDADE COM OS NAVEGADORES **-->
+    <video controls width="500">
+        <source src="media/video.mp4" type="video/mp4">
+        <source src="media/Video.m4v" type="video/mp4">
+        <source src="media/Video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade de reprodução de videos.</p>
+        <p>Abaixo temos a ospedagem de videos externa justamente para ocupar menos no pacote de hosting.</p>
+    </video>
+  </body>
+</html>
