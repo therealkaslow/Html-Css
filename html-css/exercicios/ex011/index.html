@@ -40,5 +40,26 @@
         <source media="(max-width: 1050px)" srcset="assets/foto-m.png" type="image/png">
       <img src="assets/foto-g.png" alt="G" />
     </picture>
+    <h1>Reproduzinho Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5 </p>
+     <!-- <audio src="media/funk.mp3" controls></audio> -->
+    <p><mark>para fazer com que o audio seja reproduzido de fundo, só adicionar a tag <q>audio</q> e colocar o parâmetro <q>controls</q> para aparecer o player de audio e se quiser pode colocar o <q>autoplay</q> para iniciar o audio de fundo</mark></p>
+    <dl>Deixando compatível em todos os navegadores.
+      <ul>
+        <li>tag Source 
+          <p>
+          nem todos os navegadores tem a compatibilidade para rodar o audio, ou seja se você quiser fazer com que o audio toque, os navegadores suportam os formatos OGG, WAV e MP3.
+          </p>
+          <p>E para isso você precisa de colocar a tag de audio vazia e depois colocar os respectivos formatos dentro da tag de <em>Source src</em></p>
+        </li>
+      </ul>
+      <audio preload="metadata" autoplay controls >       
+        <source src="media/funk.mp3" type="audio/mpeg"> 
+        <!-- o mp3 diferencia porcausa do audio/mpeg -->
+        <source src="media/funk.ogg" type="audio/ogg">
+        <source src="media/funk.wav" type="audio/wav"> <!-- toamr cuidado com arquivos wav porcausa do espaço -->
+        <p>infelizmente seu navegador não consegue reproduzir o audio. <a href="media/funk.mp3">Clique aqui para Baixar a música</a></p>
+      <audio>
+    </dl>
   </body>
 </html>
