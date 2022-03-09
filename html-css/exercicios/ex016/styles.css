@@ -1,0 +1,40 @@
+@charset "UTF-8";
+* {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+    /* alinhamento de texto */
+}
+
+body {
+    background-image: linear-gradient(to bottom, #D84797, #820933);
+    /* gradient e o degrade e o 'linear' e o tipo de degrade */
+    background-attachment: fixed;
+}
+
+main {
+    background-color: #D2FDFF;
+    border-radius: 20px;
+    box-shadow: 10px, 10px, 7px, rgba(10, 1, 4, 0.705);
+    /* o 'box shadow' serve para definir a sombra e o primeiro parametro e quando a sombra vai andar para o lado, o segundo e quando a sombra vai andar para baixo, o terceiro e para quando a sombra vai se expalhar e o ulimo parametro e quando a sombra vai ter de transparencia.*/
+    /* por exemplo box-shadow: {lado}, {baixo}, {espalhamento}, {transparencia} */
+    width: 600px;
+    /* width é largura */
+    padding: 10px;
+    /* padding é espacamento */
+    margin: auto;
+    /* margin e o posicionamento */
+}
+
+h1 {
+    color: #EB6136;
+    text-align: center;
+    text-shadow: 1px, 1px, 2px, #a54629e8(0 0% 100%);
+}
+
+h2 {
+    color: #EB724D;
+    text-align: center;
+}
