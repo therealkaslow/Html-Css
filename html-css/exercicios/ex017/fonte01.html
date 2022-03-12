@@ -15,12 +15,27 @@
             /* Medidas absolutas cm, mm, in, px, pt, pc Medidas realtivas em, ex, rem, vw, vh, % AS medidas recomendadas para ser utilizadar é o "px" e "em" pela W3C */
             font-size: 1em;
             /* o parametro acima define
-    o tamanho da fonte em si */
+            o tamanho da fonte em si */
             font-weight: bold;
             /* pode ter esses parametros no font-weight = 'normal, lighter, bold, bolder' */
             /* o parametro acime define o peso da fonte em si, e pode ter valores no 'font-weight do 100 até ao 900' */
+            text-decoration: underline;
+            /*esse parâmetro acima define o texto sublinhado no texto como outras decoracões  */
+            /* abaixo temo um exemplo de "shorthand" */
+        }
+        
+        h1 {
+            /*
+            font-family: 'Work-Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            /* shorthand  faz abreviar todas essas linhas de cima por exemplo: font-style -> font-weight -> font-size -> font-family.*/
+            /* igual nas linhas de código abaixo */
+            font: italic bolder 3em 'Work-Sans', sans-serif;
         }
     </style>
+
 </head>
 
 <body>
